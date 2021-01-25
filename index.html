@@ -1,0 +1,432 @@
+<html>
+    <head>
+        <title>Job Search Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./style.css"> <!--linking stylesheet page-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--for using font-awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"> <!--for using bootstrap-social-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!--for using icons-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm fixed-top d-block">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#List" >
+                    <span class="navbar-toggler-icon" style="background: #daad86;" ></span>
+                </button>
+                <div>
+                   <h2> <a id="logo"><img class="img-fluid" style="width: 35px; height: 35px; border-radius: 90%;" src="./logo.jpg"> JobAcademy</a>  </h2>
+                </div>
+                <div class="collapse navbar-collapse" id="List">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><i class="fa fa-search"> Search Jobs</i></li>
+                        <li class="nav-item"><i class="fa fa-file-text"> Resume Templates</i></li>
+                        <li class="nav-item"><i class="fa fa-file-text-o"> CV Templates</i></li>
+                        <li class="nav-item"><i class="fa fa-user-circle"> My Account</i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="jumbotron">
+            <div class="container" >
+                <div class="row row-header">
+                    <div class="col-12 col-sm-4 align-self-center">
+                         <img class="work img-fluid" src="./work.jpg" alt="work">
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center" >
+                         <input class="search d-block" style="width: 100%;" type="text" placeholder="Search by skills, companies and job titles">
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                         <img class="img-fluid" style="width:250px ; height: 250px; float: right; border-radius: 90%;" src="./giff2.gif">
+                    </div>
+                </div>
+            </div>
+        </header> 
+
+        <div class="row row-header">
+            <div class="col-12 col-sm-4">
+                <nav class="navbar navbar-light" style="padding-top: 0%;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                             <a class="nav-link active" href="https://www.facebook.com/"><button class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></button> Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="https://twitter.com/LOGIN"><button class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></button> Twitter</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="https://www.linkedin.com/login"><button class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedIn"></i></button> LinkedIn</a> 
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="https://github.com/"><button class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></button> GitHub</a> 
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+            
+            <div class="col-12 col-sm-8">
+                <div class="row row-content">
+                    <ul class="nav nav-pills" role="tablist">  <!--Tabs-->
+                        <li class="nav-item" role="presentation">
+                             <a class="nav-link active" href="#technical" role="tab" data-toggle="pill"><i class="fa fa-laptop card-icon"></i> Technical Jobs</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                             <a class="nav-link" href="#mba" role="tab" data-toggle="pill"><i class="fa fa-line-chart card-icon"></i> Management Jobs</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                             <a class="nav-link" href="#sales" role="tab" data-toggle="pill"><i class="fa fa-phone card-icon"></i> Sales Jobs</a>
+                        </li>
+                     </ul>
+                    
+
+                 <div class="tab-content"> <!--Tab Content-->
+                    <div role="tabpanel" class="tab-pane fade show active" id="technical">
+                        <div class="row row-content">  <!--Technical tab Row Content -->
+                            <div class="col-12 col-sm-4">  <!--1st Card-->
+                                <div class="card">
+                                    <div class="card-header"><h6>Software Developer</h6><p><img class="logo" src="./mindstorm.jpeg">Mindstorm</p>
+                                    </div>
+                                    <div class="card-body">
+                                         <p>Mumbai, Maharashtra</p>
+                                         <strong><span>&#8377;</span>25,000-35,000, a month</strong>
+                                         <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                         <p><i class="fa fa-hourglass-start card-icon"></i> Be an early applicant</p>
+                                    </div>
+                                    <div class="card-footer">
+                                         <button type="button" class="btn btn-lg" style="background: white;"> Apply </button>
+                                    </div>
+                                </div>
+                            </div>   
+                            <div class="col-12 col-sm-4"> <!--2nd Card-->
+                                <div class="card">
+                                    <div class="card-header"><h6>Web Developer</h6><p><img class="logo" src="./accenture.png"> Accenture</p>
+                                    </div>
+                                    <div class="card-body">
+                                         <p>India. Remote</p>
+                                         <strong><span>&#8377;</span>20,000-40,000, a month</strong>
+                                         <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                         <p><i class="fa fa-clock-o card-icon"></i> Urgently hiring</p>
+                                    </div>
+                                    <div class="card-footer">
+                                         <button type="button" class="btn btn-lg" style="background: white;"> Apply </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-4"> <!--3rd Card-->
+                                <div class="card">
+                                    <div class="card-header"><h6>Software Tester</h6><p><img class="logo" src="./hp.png"> HP</p>
+                                    </div>
+                                    <div class="card-body">
+                                         <p>Andheri, Maharashtra</p>
+                                         <strong><span>&#8377;</span>10,000-25,000, a month</strong>
+                                         <p><i class="fa fa-file-text card-icon" ></i> Apply with your2 JobAcademy Resume</p>
+                                         <p><i class="fa fa-clock-o card-icon"></i> Urgently hiring</p>
+                                    </div>
+                                    <div class="card-footer">
+                                         <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-content" style="padding-top: 25px;">
+                                <div class="col-12 col-sm-4">
+                                   <div class="card">
+                                       <div class="card-header"><h6>IT Support</h6><p><img class="logo" src="./miles.png"> Miles Technologies</p></div>
+                                       <div class="card-body">
+                                             <p>Mumbai, Maharashtra</p>
+                                             <strong><span>&#8377;</span>5,00,000, a year</strong>
+                                             <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                             <p><i class="fa fa-hourglass-start card-icon"></i> Be an early applicant</p>
+                                       </div>
+                                       <div class="card-footer">
+                                             <button type="button" class="btn btn-lg" style="background: white;"> Apply </button>
+                                       </div> 
+                                   </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                   <div class="card">
+                                       <div class="card-header"><h6>Hardware Engineer</h6><p><img class="logo" src="./tata.png"> TCS</p></div>
+                                       <div class="card-body">
+                                             <p>Navi Mumbai, Maharashtra</p>
+                                             <strong><span>&#8377;</span>1,50,000-3,50,000, a year</strong>
+                                             <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                             <p><i class="fa fa-clock-o card-icon"></i> Urgently hiring</p>
+                                       </div>
+                                       <div class="card-footer">
+                                             <button type="button" class="btn btn-lg" style="background: white;"> Apply </button>
+                                       </div>
+                                   </div>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                   <div class="card">
+                                       <div class="card-header"><h6>PHP Developer</h6><p><img class="logo" src="./godrej.png"> Godrej</p>
+                                       </div>
+                                       <div class="card-body">
+                                             <p>Thane, Maharashtra</p>
+                                             <strong><span>&#8377;</span>3,00,000 a year</strong>
+                                             <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                             <p><i class="fa fa-users card-icon"></i> Hiring many candidates</p>
+                                       </div>
+                                       <div class="card-footer">
+                                             <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div> <!--T.Row content ending-->
+                    </div> <!--Tab panel ending-->
+
+                    <div role="tabpanel" class="tab-pane fade show " id="mba">
+                       <div class="row row-content">
+                          <div class="col-12 col-sm-4">
+                             <div class="card">
+                                 <div class="card-header"><h6>Problem Management Associate</h6><p><img class="logo" src="./hp.png"> HP</p>
+                                 </div>
+                                 <div class="card-body">
+                                     <p>Vikhroli, Maharashtra</p>
+                                     <strong><span>&#8377;</span>10,000-20,000, a month</strong>
+                                     <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                     <p><i class="fa fa-clock-o card-icon"></i> Urgently hiring</p>
+                                 </div>
+                                 <div class="card-footer">
+                                     <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                 </div>
+                             </div>
+                          </div>
+                          <div class="col-12 col-sm-4">
+                              <div class="card">
+                                  <div class="card-header"><h6>HR Executive</h6><p><img class="logo" src="./mahindra.png"> Mahindra </p>
+                                  </div>
+                                  <div class="card-body">
+                                      <p>Pune, Maharashtra</p>
+                                      <strong><span>&#8377;</span>20,000-35,000, a month</strong>
+                                      <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                      <p><i class="fa fa-users card-icon"></i> Hiring many candidates</p>
+                                  </div>
+                                  <div class="card-footer">
+                                     <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                  </div>
+                             </div>
+                         </div>
+                          <div class="col-12 col-sm-4">
+                              <div class="card">
+                                  <div class="card-header"><h6>Associate Finance Manager</h6><p><img class="logo" src="./monster.png"> Monster</p>
+                                  </div>
+                                  <div class="card-body">
+                                       <p>Andheri, Maharashtra</p>
+                                       <strong><span>&#8377;</span>15,000-25,000, a month</strong>
+                                       <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                       <p><i class="fa fa-clock-o card-icon"></i> Urgently hiring</p>
+                                  </div>
+                                  <div class="card-footer">
+                                     <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                 </div>
+                             </div>
+                          </div>
+                       </div>  <!--M.Row content ending-->
+                    </div> <!--Tab panel ending-->
+
+                    <div role="tabpanel" class="tab-pane fade show " id="sales">  <!--Sales-->
+                        <div class="row row-content">
+                            <div class="col-12 col-sm-4">
+                                <div class="card">
+                                    <div class="card-header"><h6>Sales Associate</h6><p><img class="logo" src="./toyota.png"> Toyota</p>
+                                    </div>
+                                    <div class="card-body">
+                                         <p>Pune, Maharashtra</p>
+                                         <strong><span>&#8377;</span>10,000-15,000, a month</strong>
+                                         <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                         <p><i class="fa fa-users card-icon"></i> Hiring many candidates</p>
+                                    </div>
+                                    <div class="card-footer">
+                                         <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                  <div class="card">
+                                     <div class="card-header"><h6>Home Sales Trainee</h6><p><img class="logo" src="./vodafone.jfif"> Vodafone</p>
+                                     </div>
+                                     <div class="card-body">
+                                          <p>Andheri, Maharashtra</p>
+                                          <strong><span>&#8377;</span>1,15,000-1,75,000, a year</strong>
+                                          <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                          <p><i class="fa fa-clock-o card-icon"></i> Urgently hiring</p>
+                                     </div>
+                                     <div class="card-footer">
+                                         <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                     </div>
+                                  </div>
+                            </div>
+                                <div class="col-12 col-sm-4">
+                                    <div class="card">
+                                        <div class="card-header"><h6>Sales Specialist</h6><p><img class="logo" src="./tata.png"> TCS</p>
+                                        </div>
+                                        <div class="card-body">
+                                              <p>Nagpur, Maharashtra</p>
+                                              <strong><span>&#8377;</span>2,20,000-2,35,000, a year</strong>
+                                              <p><i class="fa fa-file-text card-icon" ></i> Apply with your JobAcademy Resume</p>
+                                              <p><i class="fa fa-hourglass-start card-icon"></i> Be an early applicant</p>
+                                        </div>
+                                        <div class="card-footer">
+                                             <button type="button" class="btn btn-lg" style="background: white; "> Apply </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  <!--S.Row content ending-->
+                    </div>  <!--Tab panel ending-->
+
+                </div> <!--Tab content ending-->
+                   
+            </div>
+                     
+           </div>
+       </div>
+    </div>
+</div>
+
+
+
+<div class="container">   <!--Carousel-->
+    <div class="row row-content">
+        <div class="col">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner" role="list-box">
+                    <div class="carousel-item active"> <!--for carousel content-->
+                        <img class="d-block img-fluid" src="./job.jpg" alt="job">
+                        <div class="carousel-caption d-none d-md-block ml-auto">
+                             <h3><i class="fa fa-bullhorn fa-lg"></i> Job Alerts</h3>
+                             <p>Get realtime alerts for jobs through sms and emails</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="./betterjob2.jpg" alt="betterjob">
+                        <div class="carousel-caption d-none d-md-block ml-auto">
+                             <h3> <i class="fa fa-search fa-lg"></i> Find Better Jobs</h3>
+                             <p>Find jobs that match your skills across top employers in the country</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                       <img class="d-block img-fluid" src="./applyquickly.jpg" alt="applyquickly">
+                       <div class="carousel-caption d-none d-md-block ml-auto">
+                             <h3><i class="fa fa-hourglass-start fa-lg"></i> Apply Quickly!</h3>
+                             <p>Save time and effort with JobAcademy.</p>
+                       </div> 
+                    </div>
+                </div>
+            </div> 
+            <ol class="carousel-indicators">
+                 <li data-target="#mycarousel" data-slide-to="0" class="active "></li>
+                 <li data-target="#mycarousel" data-slide-to="1" ></li>
+                 <li data-target="#mycarousel" data-slide-to="2" ></li>
+            </ol>
+        </div>
+    </div>
+
+
+
+<div class="row" style="padding: 3px; margin: 10px 10px 0px 9px; font-family:'Times New Roman', Times, serif" >
+     <h2>Top Companies with greater reviews</h2>
+</div>
+<div class="row content-border ">  <!--Top Companies-->
+    <div class="col-12 col-sm-3 content-border ">
+         <h4><img src="./rs.jpg" class="logo"> R.S Solutions </h4>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star"></span>
+         <span class="fa fa-star"></span>
+         <p style="color:grey;"><u><i class="fa fa-users"></i> 18.25k reviews</u> </p>
+    </div>
+    <div class="col-12 col-sm-3 content-border ">
+         <h4><img src="./vj.jpg" class="logo"> V.J Jain </h4>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star"></span>
+         <p style="color:grey;"><u><i class="fa fa-users"></i> 23.05k reviews</u> </p>
+    </div>
+    <div class="col-12 col-sm-3 content-border ">
+         <h4><img src="./supreme.png" class="logo"> Supreme Pvt Ltd </h4>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star"></span>
+         <span class="fa fa-star"></span>
+         <span class="fa fa-star"></span>
+         <p style="color:grey;"><u><i class="fa fa-users"></i> 38.94k reviews</u> </p>
+    </div>
+    <div class="col-12 col-sm-3 content-border ">
+         <h4><img src="./vodafone.jfif" class="logo"> Vodafone </h4>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star"></span>
+         <span class="fa fa-star"></span>
+         <p style="color:grey;"><u><i class="fa fa-users"></i> 18.25k reviews</u> </p>
+    </div>
+</div>
+
+
+<div class="row content-border">  <!--Salary prediction-->
+    <div class="col-12 col-sm-6 ">
+         <h2>How much should you be earning?</h2>
+         <p>Get an estimated calculation of how much you should be earning and insight into your career options.</p>
+         <button class="btn btn-lg" style="background: #41B3A3;">Get estimated pay range</button>
+    </div>
+    <div class="col-12 col-sm-6">
+         <img  style="width: 500px; height: 200px;" class="img-fluid d-block" src="./salary.PNG" alt="salary">
+    </div>
+</div>
+
+     <div class="container-fluid">
+        <footer style="padding-top: 35px;">
+            <div class="row d-block" style="background: grey;">
+                <div>
+                   <i class="fa fa-facebook fa-lg footer-icon"></i>
+                   <i class="fa fa-linkedIn fa-lg footer-icon"></i>
+                   <i class="fa fa-instagram fa-lg footer-icon"></i>
+                   <i class="fa fa-github fa-lg footer-icon"></i>
+                   <i class="fa fa-twitter fa-lg footer-icon"></i>
+                </div>
+            </div>
+            <div class="row row-footer" style="background: rgb(65, 63, 63);">
+                <div class="col-12 col-sm-4" style="padding: 35px; color: rgba(245, 245, 245, 0.548);">
+                    <h3 class="footer-list">Templates</h3>
+                    <ul class="list-unstyled">
+                        <li class="footer-list">Homepage</li>
+                        <li class="footer-list">Resume Templates</li>
+                        <li class="footer-list">CV Templates</li>
+                        <li class="footer-list">Cover Letters</li>
+                        <li class="footer-list">&copy; All Rights Reserved </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4" style="padding: 35px; color: rgba(245, 245, 245, 0.548);">
+                    <h3 class="footer-list">Learn</h3>
+                    <ul class="list-unstyled">
+                        <li class="footer-list">How to qrite a Resume</li>
+                        <li class="footer-list">How to write CV</li>
+                        <li class="footer-list">Resume Examples</li>
+                        <li class="footer-list">Cover Letter Examples</li>
+                        <li class="footer-list">Career Blog</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4" style="padding: 35px; color: rgba(245, 245, 245, 0.548);">
+                    <h3 class="footer-list">Others</h3>
+                    <ul class="list-unstyled">
+                        <li class="footer-list">About Us</li>
+                        <li class="footer-list">Pricing</li>
+                        <li class="footer-list">E-Book: How to get a job in 2021!</li>
+                        <li class="footer-list">Media Kit</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+     </div>
+    </body>
+</html>
+
